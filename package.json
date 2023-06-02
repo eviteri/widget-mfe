@@ -1,6 +1,6 @@
 {
-  "name": "remote2",
-  "version": "0.1.0",
+  "name": "widget-mfe",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "PORT=3002 node ./scripts/start.js",
-    "build": "node ./createDeployable.js",
+    "build": "bash ./createDeployable.sh",
     "build:mfe": "node ./scripts/build.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
